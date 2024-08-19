@@ -9,11 +9,11 @@ Automatidata is consulting for the New York City Taxi and Limousine Commission (
 ## Problem Statement
 Having completed an initial plan of action, initial Python coding work, EDA, and A/B testing, the NYC Taxi and Limousine Commission (New York City TLC) wants the Automatidata team to build a multiple linear regression model to predict taxi fares using existing data that was collected over a year. 
 
-The specific tasks needed at this stage of the project include:
-  • Determine the correct modeling approach
-  • Build a regression model
-  • Finish checking model assumptions
-  • Evaluate the mode
-  • Interpret model results and summarize findings for stakeholders within TLC
+The specific tasks needed at this stage of the project include:<br>
+&emsp; • Determine the correct modeling approach<br>
+&emsp; • Build a regression model<br>
+&emsp; • Finish checking model assumptions<br>
+&emsp; • Evaluate the mode<br>
+&emsp; • Interpret model results and summarize findings for stakeholders within TLC<br>
 
 These will help the data practitioner practice planning out, demonstrating knowledge of EDA, and building a multiple linear regression model based on a specific business need.      
