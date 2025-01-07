@@ -12,6 +12,12 @@ This analysis reveals several key patterns:
 *  **Consistent Tipping:** Tips typically constitute 10-12% of driver revenue, with slightly higher tips observed for longer distances and during early morning hours when availability is lower.
 *  **Cost and Tip Distribution:** Trip costs and tips exhibit right-skewed distributions, with a majority of rides falling within a specific price range.
 
-These insights suggest opportunities for taxi companies & drivers to improve their operations, enhance customer satisfaction, and increase gross revenue by optimizing their operation schemes and resource allocation in an increasingly competitive transportation market.   
+These insights suggest opportunities for taxi companies & drivers to improve their operations, enhance customer satisfaction, and increase gross revenue by optimizing their operation schemes and resource allocation in an increasingly competitive transportation market.  
+
+## Recommendations
+*  **Dynamic Pricing:** Implementing dynamic pricing strategies based on time, day, distance, and even drop-off location can optimize driver earnings and passenger demand.
+*  **Fleet Management:** Optimizing fleet size and driver schedules to align with demand fluctuations and concentrate resources around high-traffic drop-off locations can improve service efficiency.
+*  **Service Enhancements:** Identifying and addressing potential service gaps, such as improving availability during peak hours and early mornings, can enhance customer satisfaction.
+*  **Various modes of Payment:** Offering a variety of popular payment options, such as direct debit, e-wallet, and buy now pay later can improve customer trust as it allows them to enjoy the convenience and rewards that come with spending using specific payment method.       
 
 
