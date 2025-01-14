@@ -19,6 +19,6 @@ These insights suggest opportunities for taxi companies & drivers to improve the
 *  **Dynamic Pricing:** Implementing dynamic pricing strategies based on time, day, distance, and even drop-off location can optimize driver earnings and passenger demand.
 *  **Fleet Management:** Optimizing fleet size and driver schedules to align with demand fluctuations and concentrate resources around high-traffic drop-off locations can improve service efficiency.
 *  **Service Enhancements:** Identifying and addressing potential service gaps, such as improving availability during peak hours and early mornings, can enhance customer satisfaction.
-*  **Payment Modes:** Offering a variety of popular payment options, such as direct debit, e-wallet, and buy now pay later can improve customer trust as it allows them to enjoy the convenience and rewards that come with spending using specific payment method.       
+*  **Flexible Payment Methods:** Offering a variety of popular payment options, such as direct debit, e-wallet, and book now pay later can improve customer trust as it allows them to enjoy the convenience and rewards that come with spending using specific payment method.       
 
 
