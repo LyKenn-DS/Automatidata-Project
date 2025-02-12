@@ -2,7 +2,7 @@
 
 This project was created in fulfillment of the requirements for the Google Advanced 
 Data Analytics Professional Certificate.
-- Description: This project involves analyzing the 2017 Yellow Taxi Trip Data to gain insights into user behavior and find ways to generate more revenue for taxi companies and drivers. The analysis explores activities of riders and the characteristics of spending on cab services that could influence and direct Automatidata's marketing strategy. 
+- Description: This project involves analyzing the 2017 Yellow Taxi Trip Data to gain insights into user behavior and find ways to generate more revenue for taxi companies and drivers. The objective is to explore activities of riders and the characteristics of spending on cab services that could influence and direct Automatidata's marketing strategy. 
 - The data used in this project is a sample of approximately 23k taxi trip records drawn from the publicly available dataset, covering various important features such as pick-up & drop-off time, fare amount, trip distance, payment types, and tip amount. 
 
 ## Executive Summary
