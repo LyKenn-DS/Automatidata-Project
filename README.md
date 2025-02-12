@@ -1,7 +1,9 @@
-# [Automatidata - General Understanding of NYC Taxi Ridership](Complete-Exploratory-Data-Analysis.ipynb)     
+# [Insights Report: Automatidata NYC Taxi Trip Analysis Project](Complete-Exploratory-Data-Analysis.ipynb)     
 
-## Project Background
-As a Junior Analyst for Automatidata, I was tasked with some EDA and data visualization to develop a general understanding of what taxi ridership looks like for the management team. **This project uses a sample of approximately 23k taxi trip records drawn from the 2017 Yellow Taxi Trip Data table, covering various important features such as pick-up & drop-off time, fare amount, trip distance, payment types, and tip amount.** The goal was to extract meaningful insights from this data and find ways to generate more revenue for taxi cab drivers. The analysis explored activity of riders, tips, trip distances, and the characteristics of spending on cab services for a better decision based on facts rather than intuition.
+This project was created in fulfillment of the requirements for the Google Advanced 
+Data Analytics Professional Certificate.
+- Description: This project involves analyzing the 2017 Yellow Taxi Trip Data to gain insights into user behavior and find ways to generate more revenue for taxi companies and drivers. The analysis explores activities of riders and the characteristics of spending on cab services that could influence and direct Automatidata's marketing strategy. 
+- The data used in this project is a sample of approximately 23k taxi trip records drawn from the publicly available dataset, covering various important features such as pick-up & drop-off time, fare amount, trip distance, payment types, and tip amount. 
 
 ## Executive Summary
 [![NYC Taxi Ridership](https://github.com/user-attachments/assets/2c558d14-c558-4f46-ac05-81b66f1c17ba)](https://public.tableau.com/views/2017_NYC_Taxi_Trips/NYCTaxiRidership?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
