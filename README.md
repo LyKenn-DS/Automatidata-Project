@@ -3,18 +3,20 @@
 **Course:** [Google Advanced Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-advanced-data-analytics) 
 
 ## Scenario
-As a newly-hired data professional at Automatidata, a fictional data consulting firm
-In order to answer the key business questions, 
+As a newly-hired data professional in a fictional data consulting firm: Automatidata 
+In order to gain clear insights and answer key business questions, New York TLC's data needs to be analyzed following the process: Ask, Prepare, Process, Analyze, Share, and Act.
 
 ## Part I - Exploratory Data Analysis (EDA) and Data Wrangling
+- Project Goal: 
+- Analysis Questions:
+     1. What are the 
+
 Before cleaning the data, I am familiarizing myself with the data by conducting profiling and computing summary statistics on each variable to find any inconsistencies.
 
 #### (Data Wrangling) 
-  1. Improved data quality by cleaning the .
-  2. Features that are not very informative on taxi ridership are excluded.
 
 #### (Exploratory Data Analysis)
-
+To get a general under
 
 * [View Python Code](https://github.com/LyKenn-DS/Automatidata-Project/blob/63db242ead5f5b7dec7fd68241d67978e49f0f5e/Complete-Exploratory-Data-Analysis.ipynb)
 * [Original Dataset](https://github.com/LyKenn-DS/Automatidata-Project/blob/63db242ead5f5b7dec7fd68241d67978e49f0f5e/data/2017_Yellow_Taxi_Trip_Data.csv)
