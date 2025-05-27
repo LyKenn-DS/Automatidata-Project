@@ -64,3 +64,6 @@ These insights suggest opportunities for taxi companies & drivers to improve the
 Based on the averages shown, it appears that customers who pay with credit card (1) tend to pay a larger amount than customers who pay with cash (2). By using AB Testing, I can determine the genuity about user behavior and promote more forms of digital credit options backed with compelling insight. 
 
 * [View Python Code](https://github.com/LyKenn-DS/Automatidata-Project/blob/295854b7e453959ec9690f30d7abdd7dafe0bf42/Statistical_Test.ipynb)
+
+## Part III - Linear Regression Prediction
+
