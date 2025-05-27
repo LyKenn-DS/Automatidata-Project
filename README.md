@@ -29,12 +29,12 @@ This rigorous wrangling process ensured a clean, reliable, and well-structured d
 
 #### (Exploratory Data Analysis)
 The analysis questions: <br>
-&emsp;1. Volume & Frequency: How many rides are there on average per day, week, and month? <br>
-&emsp;2. Temporal Patterns:  When are our busiest times? Are there specific hours, days of the week, or even seasons where demand spikes or dips significantly? <br>
-&emsp;3. Geographical Hotspots:  Where are people picking up and dropping off most frequently?  <br>
-&emsp;4. Ride Characteristics:  What's the typical length of a ride? How much is a typical fare? <br>
-&emsp;5. Passenger Load:  How many passengers are usually in our taxis? <br>
-&emsp;6. Payment Trends: How are most people paying for their rides? <br>
+&emsp;1. **Volume & Frequency -** *How many rides are there on average per day, week, and month?* <br>
+&emsp;2. **Temporal Patterns -** *When are our busiest times? Are there specific date, time or seasons where demand spikes or dips significantly?* <br>
+&emsp;3. **Geographical Hotspots -**  *Where are people picking up and dropping off most frequently?*  <br>
+&emsp;4. **Ride Characteristics -**   *What's the typical length of a ride? How much is a typical fare?* <br>
+&emsp;5. **Passenger Load -**   *How many passengers are usually in our taxis?* <br>
+&emsp;6. **Payment Trends -**  *How are most people paying for their rides?* <br>
 
 * [View Python Code](https://github.com/LyKenn-DS/Automatidata-Project/blob/63db242ead5f5b7dec7fd68241d67978e49f0f5e/Complete-Exploratory-Data-Analysis.ipynb)
 * [Raw Dataset](https://github.com/LyKenn-DS/Automatidata-Project/blob/63db242ead5f5b7dec7fd68241d67978e49f0f5e/data/2017_Yellow_Taxi_Trip_Data.csv)
