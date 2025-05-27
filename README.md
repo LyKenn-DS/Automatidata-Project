@@ -57,4 +57,10 @@ These insights suggest opportunities for taxi companies & drivers to improve the
 *  **Dynamic Pricing:** Implementing dynamic pricing strategies based on time, day, distance, and even drop-off location can optimize driver earnings and passenger demand.
 *  **Fleet Management:** Optimizing fleet size and driver schedules to align with demand fluctuations and concentrate resources around high-traffic drop-off locations can improve service efficiency.
 *  **Service Enhancements:** Identifying and addressing potential service gaps, such as improving availability during peak hours and early mornings, can enhance customer satisfaction.
-*  **Flexible Payment Methods:** Offering a variety of popular payment options, such as direct debit, e-wallet, and book now pay later can improve customer trust as it allows them to enjoy the convenience and rewards that come with spending using a typical payment method.       
+*  **Flexible Payment Methods:** Offering a variety of popular payment options, such as direct debit, e-wallet, and book now pay later can improve customer trust as it allows them to enjoy the convenience and rewards that come with spending using a typical payment method.
+
+## Part II - A/B Testing  
+![image](https://github.com/user-attachments/assets/44cd78fe-2999-46db-9086-aeefa59ecd05)
+Based on the averages shown, it appears that customers who pay with credit card (1) tend to pay a larger amount than customers who pay with cash (2). By using AB Testing, I can determine the genuity about user behavior and promote more forms of digital credit options backed with compelling insight. 
+
+* [View Python Code](https://github.com/LyKenn-DS/Automatidata-Project/blob/295854b7e453959ec9690f30d7abdd7dafe0bf42/Statistical_Test.ipynb)
