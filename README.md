@@ -3,28 +3,44 @@
 **Course:** [Google Advanced Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-advanced-data-analytics) 
 
 ## Scenario
-As a newly-hired data professional in a fictional data consulting firm: Automatidata 
-In order to gain clear insights and answer key business questions, New York TLC's data needs to be analyzed following the process: Ask, Prepare, Process, Analyze, Share, and Act.
+I am assuming to be a junior data professional at Automatidata Consulting, whose focus is to help clients from The New York City Taxi & Limousine Commission (TLC) to develop an innovative application that provides riders with accurate, upfront taxi fare estimates. By leveraging extensive historical taxi trip data from TLC's vast network of taxi cabs and for-hire vehicles, we aim to enhance transparency, build trust, and ultimately improve the overall experience for millions of daily commuters in New York City. My initial task involves conducting a thorough Exploratory Data Analysis (EDA) to gain a foundational understanding of taxi ridership patterns, paving the way for the development of a robust fare estimation model. 
 
 ## Part I - Exploratory Data Analysis (EDA) and Data Wrangling
-- Project Goal: 
-- Analysis Questions:
-     1. What are the 
-
-Before cleaning the data, I am familiarizing myself with the data by conducting profiling and computing summary statistics on each variable to find any inconsistencies.
+In order to gain clear insights and answer key business questions, New York TLC's data needs to be analyzed following the process: Ask, Prepare, Process, Analyze, Share, and Act.
 
 #### (Data Wrangling) 
+1. Initial Data Loading & Inspection
+   - Loaded the raw taxi trip dataset into a Pandas DataFrame.
+   - Before working on the data, I familiarized myself with the data by conducting profiling and computing summary statistics on each variable to find any inconsistencies.
+2. Handling duplicate, missing, and outlying data
+   - With each record assigned a unique id, partial duplicate rows were checked using only a subset of columns.  
+   - Assessed the extent of outlying values across all columns.
+   - Depending on the column and its implication to overall data story, strategies such as capping values, removing extreme outliers, or noting their presence were applied to prevent skewed analysis. *Details of specific outlier handling will be noted in the Python notebook*
+3. Data Type Conversion
+   - Converted `pickup_datetime` and `dropoff_datetime` columns to datetime objects for time-based math and aggregations.
+   - Ensured numerical and categorical columns were optimized to their appropriate data types.
+4. Feature Engineering
+   - Included `timelapse` column for ride duration for better understanding of the standard rate calculation.
+   - Extracted granular temporal features (hour_of_day, month, day_of_week) from `pickup_datetime` to facilitate time-series analysis. 
+6. Consistency Checks & Data Validation
+   - Verified logical consistency (eg. standardizing the system of measure and )
+   - Checked for zero and negative values in columns where positive values are expected, provided there is a fare amount incurred. 
+This rigorous wrangling process ensured a clean, reliable, and well-structured dataset, forming the foundation for accurate analysis of NYC's taxi ridership patterns and the development of a predictive model later.  
 
 #### (Exploratory Data Analysis)
-To get a general under
+The analysis questions:
+ * Volume & Frequency: How many rides are we doing on average per day, week, and month?
+ * Temporal Patterns: When are our busiest times? Are there specific hours, days of the week, or even seasons where demand spikes or dips significantly?
+ * Geographical Hotspots: Where are people picking up and dropping off most frequently? Are there specific zones or boroughs that are our bread and butter?
+ * Ride Characteristics: What's the typical length of a ride, both in terms of distance and duration? How much is a typical fare?
+* Passenger Load: How many passengers are usually in our taxis?
+* Payment Trends: How are most people paying for their rides?
 
 * [View Python Code](https://github.com/LyKenn-DS/Automatidata-Project/blob/63db242ead5f5b7dec7fd68241d67978e49f0f5e/Complete-Exploratory-Data-Analysis.ipynb)
-* [Original Dataset](https://github.com/LyKenn-DS/Automatidata-Project/blob/63db242ead5f5b7dec7fd68241d67978e49f0f5e/data/2017_Yellow_Taxi_Trip_Data.csv)
+* [Raw Dataset](https://github.com/LyKenn-DS/Automatidata-Project/blob/63db242ead5f5b7dec7fd68241d67978e49f0f5e/data/2017_Yellow_Taxi_Trip_Data.csv)
 * [Cleaned Dataset](https://github.com/LyKenn-DS/Automatidata-Project/blob/63db242ead5f5b7dec7fd68241d67978e49f0f5e/data/Clean_2017_Taxi_Trip_data.csv)
 
 ### Insights Report: Automatidata NYC Taxi Trip Analysis   
-
-- Description: This project involves analyzing the 2017 Yellow Taxi Trip Data to gain insights into user behavior as well as finding ways to generate more revenue for taxi companies and drivers. The objective is to explore the activities of riders and their characteristics of spending on cab services that could influence and direct Automatidata's marketing strategy. 
 
 [![NYC Taxi Ridership](https://github.com/user-attachments/assets/2c558d14-c558-4f46-ac05-81b66f1c17ba)](https://public.tableau.com/views/2017_NYC_Taxi_Trips/NYCTaxiRidership?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 This analysis reveals several key patterns:
@@ -37,7 +53,7 @@ This analysis reveals several key patterns:
 
 These insights suggest opportunities for taxi companies & drivers to improve their operations, enhance customer satisfaction, and increase gross revenue by optimizing their operation schemes and resource allocation in an increasingly competitive transportation market.  
 
-### Recommendations
+### Recommendations:
 *  **Dynamic Pricing:** Implementing dynamic pricing strategies based on time, day, distance, and even drop-off location can optimize driver earnings and passenger demand.
 *  **Fleet Management:** Optimizing fleet size and driver schedules to align with demand fluctuations and concentrate resources around high-traffic drop-off locations can improve service efficiency.
 *  **Service Enhancements:** Identifying and addressing potential service gaps, such as improving availability during peak hours and early mornings, can enhance customer satisfaction.
