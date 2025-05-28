@@ -65,7 +65,7 @@ Based on the averages shown, it appears that customers who pay with credit card 
 * [View Python Code](https://github.com/LyKenn-DS/Automatidata-Project/blob/295854b7e453959ec9690f30d7abdd7dafe0bf42/Statistical_Test.ipynb)
 
 ## Part III - Linear Regression Analysis
-In this project, I developed a robust linear regression model using Python's Scikit-learn library. Leveraging the comprehensive dataset, the supervised model was carefully constructed to not only provide precise fare estimates but also to identify as well as quantify the impact of key variables on the fare structure of New York City taxi cabs and for-hire vehicles.
+In this project, I developed a robust linear regression model using Python's Scikit-learn library. Leveraging the comprehensive dataset, the supervised model was carefully constructed to not only provide precise fare estimates but also to identify as well as quantify the impact of key variables on the fare structure of NYC taxi cabs and for-hire vehicles.
 
 * [View Python Code](https://github.com/LyKenn-DS/Automatidata-Project/blob/613158e1768ab9263feca0b213a2b087b2979944/Regression-Predictions.ipynb)
 
