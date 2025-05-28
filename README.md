@@ -70,6 +70,7 @@ In this project, I developed a robust linear regression model using Python's Sci
 * [View Python Code](https://github.com/LyKenn-DS/Automatidata-Project/blob/613158e1768ab9263feca0b213a2b087b2979944/Regression-Predictions.ipynb)
 
 ## Part IV - Model Classification 
-
+To help improve the revenue for taxi cab drivers, I have also built a machine learning classification model in a project that will reliably classify generously tipping customers. 
+This model can be integrated into an application that will notify taxi drivers of these potential high-tipping opportunities, directly contributing to improved driver revenue and operational efficiency.  
 
 * [View Python Code](https://github.com/LyKenn-DS/Automatidata-Project/blob/896fe52b528bbbc5b4f8654715a1b65547660921/Classifier.ipynb)
