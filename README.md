@@ -69,3 +69,6 @@ This project focuses on developing a robust linear regression model to understan
 
 * [View Python Code](https://github.com/LyKenn-DS/Automatidata-Project/blob/613158e1768ab9263feca0b213a2b087b2979944/Regression-Predictions.ipynb)
 
+## Part IV - Model Classification 
+
+* [View Python Code](https://github.com/LyKenn-DS/Automatidata-Project/blob/896fe52b528bbbc5b4f8654715a1b65547660921/Classifier.ipynb)
