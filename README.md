@@ -23,9 +23,8 @@ In order to gain clear insights and answer key business questions, New York TLC'
    - Included `timelapse` column for ride duration for better understanding of the standard rate calculation.
    - Extracted granular temporal features (hour_of_day, month, day_of_week) from `pickup_datetime` to facilitate time-series analysis. 
 6. Consistency Checks & Data Validation
-   - Verified logical consistency (eg. standardizing the system of measure and )
+   - Verified logical consistency (eg. standardizing the system of measure)
    - Checked for zero and negative values in columns where positive values are expected, provided there is a fare amount incurred. 
-This rigorous wrangling process ensured a clean, reliable, and well-structured dataset, forming the foundation for accurate analysis of NYC's taxi ridership patterns and the development of a predictive model later.  
 
 #### (Exploratory Data Analysis)
 The analysis questions: <br>
