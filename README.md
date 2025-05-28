@@ -15,7 +15,7 @@ In order to gain clear insights and answer key business questions, New York TLC'
 2. Handling duplicate, missing, and outlying data
    - With each record assigned a unique id, partial duplicate rows were checked using only a subset of columns.  
    - Assessed the extent of outlying values across all columns.
-   - Depending on the column and its implication to overall data story, strategies such as capping values, removing extreme outliers, or noting their presence were applied to prevent skewed analysis. *Details of specific outlier handling will be noted in the Python notebook*
+   - Depending on its implication to project analysis, strategies such as capping values, removing extreme outliers, or noting their presence were applied to prevent skewed analysis. *Details of specific outlier handling will be noted in the Python notebook*
 3. Data Type Conversion
    - Converted `pickup_datetime` and `dropoff_datetime` columns to datetime objects for time-based math and aggregations.
    - Ensured numerical and categorical columns were optimized to their appropriate data types.
