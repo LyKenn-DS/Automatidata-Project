@@ -64,5 +64,8 @@ Based on the averages shown, it appears that customers who pay with credit card 
 
 * [View Python Code](https://github.com/LyKenn-DS/Automatidata-Project/blob/295854b7e453959ec9690f30d7abdd7dafe0bf42/Statistical_Test.ipynb)
 
-## Part III - Linear Regression Prediction
+## Part III - Linear Regression Analysis
+In this project, a supervised linear regression model that reliably explains changes about fare amount is developed. 
+
+* [View Python Code](https://github.com/LyKenn-DS/Automatidata-Project/blob/613158e1768ab9263feca0b213a2b087b2979944/Regression-Predictions.ipynb)
 
